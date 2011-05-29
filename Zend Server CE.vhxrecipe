@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customHTTPDConf</key>
+	<string>/usr/local/zend/apache2/conf/httpd.conf</string>
+	<key>customRestartCommand</key>
+	<string>/usr/local/zend/apache2/bin/httpd -f /usr/local/zend/apache2/conf/httpd.conf -k restart</string>
+	<key>customStartCommand</key>
+	<string>/usr/local/zend/apache2/bin/httpd -f /usr/local/zend/apache2/conf/httpd.conf -k start</string>
+	<key>customStopCommand</key>
+	<string>/usr/local/zend/apache2/bin/httpd -f /usr/local/zend/apache2/conf/httpd.conf -k stop</string>
+	<key>customVHostsConf</key>
+	<string>/usr/local/zend/apache2/conf/extra/httpd-vhosts.conf</string>
+</dict>
+</plist>
