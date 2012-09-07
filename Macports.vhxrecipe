@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customHTTPDConf</key>
+	<string>/opt/local/apache2/conf/httpd.conf</string>
+	<key>customRestartCommand</key>
+	<string>/opt/local/apache2/bin/apachectl -k restart</string>
+	<key>customStartCommand</key>
+	<string>/opt/local/apache2/bin/apachectl -k start</string>
+	<key>customStopCommand</key>
+	<string>/opt/local/apache2/bin/apachectl -k stop</string>
+	<key>customVHostsConf</key>
+	<string>/opt/local/apache2/conf/extra/httpd-vhosts.conf</string>
+</dict>
+</plist>
