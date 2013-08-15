@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customHTTPDConf</key>
+	<string>/Applications/mampstack-5.4.17-2/apache2/conf/httpd.conf</string>
+	<key>customStartCommand</key>
+	<string>/Applications/mampstack-5.4.17-2/ctlscript.sh start apache</string>
+	<key>customStopCommand</key>
+	<string>/Applications/mampstack-5.4.17-2/ctlscript.sh stop apache</string>
+	<key>customVHostsConf</key>
+	<string>/Applications/mampstack-5.4.17-2/apache2/conf/extra/httpd-vhosts.conf</string>
+</dict>
+</plist>
